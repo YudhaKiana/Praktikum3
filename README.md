@@ -3,6 +3,12 @@
 
 #Praktikum 3: Membuat List, Table dan Form
 
+#TUGAS Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
+#Contoh Gambar
+
+![img](./gambar/2023-10-15%20(4).png)
+
 #Contoh Gambar
 
 ![img](./gambar/2023-10-15.png)
@@ -16,8 +22,43 @@
 ![img](./gambar/2023-10-15%20(2).png)
 ~~~
 
-~~/n
+#Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection. (Code)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form dengan Dropdown dan Listbox</title>
+    </head>
+    <body>
+        <h2>Pilih Program Studi Favorit Anda</h2>
+        <form>
+            <label for="Teknik">Pilih Fakultas Favorit</label>
+            <select id="Teknik" name="Teknik">
+                <option value="Industri">Industri</option>
+                <option value="Informatika">Informatika</option>
+                <option value="lingkungan">lingkungan</option>
+                <option value="Akuntansi">Akuntansi</option>
+                <option value="Manajemen">Manajemen</option>
+                <option value="Bisnis Digital">Binis Digital</option>
+            </select>
+
+            <label for="Teknik">Pilih Fakultas Favorit </label>
+            <select id="Teknik" name="Teknik" multiple>
+                <option value="Manajemen">Manajemen</option>
+                <option value="Informatika">Informatika</option>
+                <option value="Akuntansi">Akuntansi</option>
+                <option value="lingkungan">lingkungan</option>
+                <option value="Bisnis Digital">Bisnis Digital</option>
+                <option value="Industri">Industri</option>
+            </select>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
+
+
 #Membuat List (Code)
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +104,9 @@
     </dl>
 </section>
 
+
 #Membuat Table (code)
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -129,7 +172,9 @@
     </tbody>
 </table>
 
+
 #Mebuat Form
+
 
 <!DOCTYPE html>
 <html lang="en">
