@@ -1,9 +1,23 @@
 # Praktikum3
-~~~/n
+~~/n
 
 #Praktikum 3: Membuat List, Table dan Form
 
-#Membuat List
+#Contoh Gambar
+
+![img](./gambar/2023-10-15.png)
+
+#Contoh Table
+
+![img](./gambar/2023-10-15%20(1).png)
+
+#Contoh Form
+
+![img](./gambar/2023-10-15%20(2).png)
+~~~
+
+~~/n
+#Membuat List (Code)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,15 +63,7 @@
     </dl>
 </section>
 
-#Contoh Gambar
-
-
-
-![img](./gambar/2023-10-15.png)
-
-
-
-#Membuat Table
+#Membuat Table (code)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -123,12 +129,6 @@
     </tbody>
 </table>
 
-
-
-![img](./gambar/2023-10-15%20(1).png)
-
-
-
 #Mebuat Form
 
 <!DOCTYPE html>
@@ -182,11 +182,4 @@ for="jk_p">Perempuan</label>
         padding: 5px 15px;
     }
 </style>
-
-
-
-![img](./gambar/2023-10-15%20(2).png)
-
-
-
 ~~~
