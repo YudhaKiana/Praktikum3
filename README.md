@@ -1,5 +1,5 @@
 # Praktikum3
-~~/n
+~~~/n
 
 #Praktikum 3: Membuat List, Table dan Form
 
